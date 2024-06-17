@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Customer List</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
+</head>
+<body>
+  <h1>Customer Details</h1>
+    <div class="container">
+
+        <div class="customer-details">
+            <h3> {{customer.first_name}} {{customer.last_name}} </h3>
+            <P><strong>Phone: </strong> {{customer.phone}}</P>
+            <P><strong>Address: </strong> {{customer.address}}</P>
+            <P><strong>Email: </strong> {{customer.email}}</P>
+            <P><strong>Joined on: </strong> {{customer.created_at}}</P>
+        
+        </div>
+    </div>
+</body>
+</html>
